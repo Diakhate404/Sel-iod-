@@ -1,0 +1,164 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Sel Iodé Non Lavé</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sel Iodé Non Lavé - Qualité Supérieure</h1>
+        <p>Un sel naturel pour plusieurs industries</p>
+    </header>
+
+    <section class="container">
+        <div class="image-container">
+            <img src="sel iodé.jpg" alt="Sel Iodé">
+        </div<img src="sel iodé.jpg" alt="Sel Iodé Non Lavé" width="400">
+        <div class="content">
+            <h2>Pourquoi choisir notre sel iodé ?</h2>
+            <p>Notre sel marin iodé est <strong>non raffiné et non lavé</strong>, idéal pour diverses industries :</p>
+            <ul>
+                <li>🛠️ <strong>Industrie du Thon</strong> : Pour la conservation du poisson.</li>
+                <li>🥓 <strong>Salaisons & Saucissons</strong> : Essentiel pour le goût et la conservation.</li>
+                <li>👜 <strong>Tannerie</strong> : Utilisé dans le traitement des peaux.</li>
+                <li>🍪 <strong>Biscuiterie & Beurre</strong> : Améliore la saveur.</li>
+                <li>🐄 <strong>Alimentation animale</strong> : Bétails et volailles.</li>
+                <li>💊 <strong>Industrie pharmaceutique</strong> : Pour divers traitements.</li>
+                <li>🧼 <strong>Détergents</strong> : Base de nombreux produits nettoyants.</li>
+                <li>Et bien d'autres industries...</li>
+            </ul>
+            <p class="prix">📞 Contactez-nous pour un devis</p>
+            <button id="contactButton">Commander</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contactForm">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>📞 Fixe : <a href="tel:+221338543601">+221 33 854 36 01</a> | 📱 Mobile : <a href="tel:+221774586005">+221 77 458 60 05</a></p>
+        <p>📧 Email : <a href="mailto:selsdusenegal@gmail.com">selsdusenegal@gmail.com</a></p>
+        <p>© 2025 - Sels du Sénégal</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html><style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    text-align: left;
+}
+
+.prix {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}</style><script>// Bouton de commande WhatsApp
+document.getElementById("contactButton").addEventListener("click", function() {
+    window.location.href = "https://wa.me/221774586005?text=Bonjour,%20je%20souhaite%20acheter%20du%20sel%20iodé.";
+});
+
+// Formulaire de contact (simulé)
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Merci pour votre message ! Nous vous contacterons bientôt.");
+});</script>
